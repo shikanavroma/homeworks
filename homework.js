@@ -54,11 +54,16 @@ return(arr[1]);
 }
  }
  function pow (x,n) {
+	 if(n==1) {
+		 return x;
+	 }
+	 else {
 	f=x*x;
 	while (n>2) {
 	n--;	
     f=f*x;	
 } 
+	 }
 return f;
 }
 
